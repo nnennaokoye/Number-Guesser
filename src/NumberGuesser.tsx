@@ -5,7 +5,7 @@ const NumberGuesser: React.FC = () => {
   const [guess, setGuess] = useState<string>('');
   const [feedback, setFeedback] = useState<string>('');
   const [attempts, setAttempts] = useState<number>(0);
-  const [maxAttempts] = useState<number>(7); // Fixed attempts for level 1
+  const [maxAttempts] = useState<number>(7); 
   const [gameOver, setGameOver] = useState<boolean>(false);
 
   const startGame = () => {
